@@ -1,6 +1,6 @@
 {
-  "buildCommand": "cd ../.. && pnpm install --frozen-lockfile && pnpm --filter @workspace/love-notes run build",
-  "outputDirectory": "artifacts/love-notes/dist",
+  "buildCommand": "cd ../.. && pnpm install && pnpm --filter @workspace/love-notes run build",
+  "outputDirectory": "dist",
   "framework": null,
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
